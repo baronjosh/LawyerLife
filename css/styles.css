@@ -1,0 +1,123 @@
+/* Inside your styles.css file */
+
+/* Inside your styles.css file */
+
+/* Style for the status bar */
+#statusBar {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Style for status bar spans */
+#statusBar span {
+    margin-right: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Inside your styles.css file */
+
+/* Style for the buttons */
+#workButton,
+#restButton,
+#newGameButton {
+    display: block;
+    width: calc(100% / 3); /* Occupy the middle third of the screen */
+    margin: 0 auto; /* Center the buttons horizontally */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Default background color for all buttons */
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for background color change */
+}
+
+/* Hover effect for workButton */
+#workButton:hover {
+    background-color: #28a745; /* Green color on hover */
+}
+
+/* Hover effect for restButton */
+#restButton:hover {
+    background-color: #ffc107; /* Yellow color on hover */
+}
+
+/* Hover effect for newGameButton */
+#newGameButton:hover {
+    background-color: #dc3545; /* Red color on hover */
+}
+
+/* Style for the Inventory screen */
+#inventoryScreen {
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Style for the Inventory title */
+#inventoryScreen h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+/* Style for the inventory list */
+#inventoryList {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Style for inventory items */
+#inventoryList li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Style for the last inventory item to remove border */
+#inventoryList li:last-child {
+    border-bottom: none;
+}
+
+/* Inside your styles.css file */
+
+/* Style for the Game Log screen */
+#gameLogScreen {
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Style for the Game Log title */
+#gameLogScreen h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+/* Style for the game log list */
+#gameLogList {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Style for game log messages */
+#gameLogList li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Style for the last game log message to remove border */
+#gameLogList li:last-child {
+    border-bottom: none;
+}
